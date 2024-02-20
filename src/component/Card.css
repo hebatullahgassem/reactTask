@@ -1,0 +1,52 @@
+.card {
+  width: 700px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+}
+
+.head {
+  display: flex;
+}
+
+.number {
+  margin-right: 21px;
+  margin-left: 20px;
+  color: lightgray;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 500;
+  padding-top: 10px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: 40px;
+}
+
+.card2 {
+  width: 700px;
+  font-family: Arial, Helvetica, sans-serif;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 20px;
+  border-top: 4px solid #077f5b;
+  .number, .title{
+    color: #077f5b;
+  }
+}
+
+.content {
+  padding: 30px;
+  padding-top: 0;
+  line-height: 30px;
+  margin-left: 40px;
+  display: "block";
+}
